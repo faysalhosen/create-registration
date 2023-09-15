@@ -1,18 +1,20 @@
 import { useEffect, useState } from "react";
 import { } from "react-icons"
 import Card from "../card/card";
+import PropTypes from "prop-types";
 
 
 
-const Home = () => {
+const Home = ({handleSelectCourses}) => {
   const [allCourses,setallCourses] = useState([]);
+  
   useEffect(() => {
     fetch("./data.json")
     .then((res) => res.json())
     .then((data) => setallCourses(data))
   },[])
-
-  console.log(allCourses);
+  
+  
     return (
 
     
@@ -24,14 +26,23 @@ const Home = () => {
           allCourses.map(courses => <Card
             key={courses.id}
             courses={courses}
+            handleSelectCourses={handleSelectCourses}
           ></Card>)
+          
+        
         }
-            
+        
+
+        </div>
+
     
-    </div>
+    
   
      </div>
     );
+};
+Home.propTypes = {
+  handleSelectCourses: PropTypes.array
 };
 
 export default Home;

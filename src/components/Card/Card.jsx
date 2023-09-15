@@ -1,6 +1,6 @@
 
 
-const Card = ({courses}) => {
+const Card = ({courses,handleSelectCourses}) => {
     const {image_url, course_name,details, price, credit} = courses
     return (
         <div>
@@ -28,7 +28,7 @@ const Card = ({courses}) => {
 <p>{credit}</p></div>
    </div>
     <div className="card-actions bg-blue-600 w-full h-60px rounded-lg ">
-      <button className="m-auto text-lg">Select</button>
+      <button onClick={()=> handleSelectCourses(courses)} className="m-auto text-lg">Select</button>
     </div>
   </div>
 
