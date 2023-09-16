@@ -20,7 +20,7 @@
         "id": 3,
         "image_url": "https://i.ibb.co/HrY1yB5/3.png",
         "course_name": "Introduction to C++ for DSA",
-        "details": " Utilize C++ language features in Data Structures & Algorithms.",
+        "details": "  Introduction :Utilize C++ language features in Data Structures & Algorithms.",
         "price": 19000,
         "credit": 3
       },
@@ -28,7 +28,7 @@
         "id": 4,
         "image_url": "https://i.ibb.co/CJNhkbq/4.png",
         "course_name": "Basic Data Structures",
-        "details": "Foundations of organizing and storing data efficiently.",
+        "details": " Data Structure Foundations of organizing and storing data efficiently.",
         "price": 23000,
         "credit": 3
       },
