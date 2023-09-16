@@ -1,27 +1,20 @@
-import { useEffect, useState } from "react";
+
 import { } from "react-icons"
 import Card from "../card/card";
 import PropTypes from "prop-types";
 
 
 
-const Home = ({handleSelectCourses}) => {
-  const [allCourses,setallCourses] = useState([]);
-  
-  useEffect(() => {
-    fetch("./data.json")
-    .then((res) => res.json())
-    .then((data) => setallCourses(data))
-  },[])
+const Home = ({handleSelectCourses,allCourses}) => {
   
   
     return (
 
     
 
-     <div className="md:w-3/4 ">
+     <div className="md:w-3/4">
          
-         <div className="grid grid-cols-3 gap-3">
+         <div className="grid grid-cols-3  gap-3">
         {
           allCourses.map(courses => <Card
             key={courses.id}
@@ -42,7 +35,8 @@ const Home = ({handleSelectCourses}) => {
     );
 };
 Home.propTypes = {
-  handleSelectCourses: PropTypes.array
+  handleSelectCourses: PropTypes.func,
+  allCourses: PropTypes.array
 };
 
 export default Home;

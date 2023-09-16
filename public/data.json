@@ -4,7 +4,7 @@
         "id": 1,
         "image_url": "https://i.ibb.co/YNyN3wK/1.png",
         "course_name": "Introduction to C Programming",
-        "details": "Learn the basics of programming and get started with coding.",
+        "details": "C provides a solid foundation for understanding computer programming concepts ",
         "price": 35000,
         "credit": 5
       },
@@ -12,15 +12,15 @@
         "id": 2,
         "image_url": "https://i.ibb.co/X5R6qv4/2.png",
         "course_name": "Introduction to Algorithms",
-        "details": "Build foundational skills in web development, HTML, CSS, and JavaScript.",
+        "details": " Step-by-step instructions for solving problems, fundamental in computer science.",
         "price": 19000,
-        "credit": 4
+        "credit": 10
       },
       {
         "id": 3,
         "image_url": "https://i.ibb.co/HrY1yB5/3.png",
         "course_name": "Introduction to C++ for DSA",
-        "details": "Dive into data science and learn about data analysis with Python.",
+        "details": " Utilize C++ language features in Data Structures & Algorithms.",
         "price": 19000,
         "credit": 3
       },
@@ -28,15 +28,15 @@
         "id": 4,
         "image_url": "https://i.ibb.co/CJNhkbq/4.png",
         "course_name": "Basic Data Structures",
-        "details": "Master the art of digital marketing, including SEO and social media strategies.",
+        "details": "Foundations of organizing and storing data efficiently.",
         "price": 23000,
         "credit": 3
       },
       {
         "id": 5,
         "image_url": "https://i.ibb.co/kMtSjhJ/5.png",
-        "course_name": "ntroduction to OOP Python",
-        "details": "Get creative with graphic design tools like Photoshop and Illustrator.",
+        "course_name": "Introduction to OOP Python",
+        "details": "Object-Oriented Programming principles for versatile, modular software development.",
         "price": 35000,
         "credit": 2
       },
@@ -44,7 +44,7 @@
         "id": 6,
         "image_url": "https://i.ibb.co/f2cmccw/Rectangle-2-5.png",
         "course_name": "Software Engineering",
-        "details": "Explore the world of machine learning and its applications with Python.",
+        "details": "Disciplined approach to design, develop, and maintain software systems.",
         "price": 19000,
         "credit": 4
       },
@@ -52,7 +52,7 @@
         "id": 7,
         "image_url": "https://i.ibb.co/Ln40JQG/Rectangle-3-1.png",
         "course_name": "AWS, Cloud Computing",
-        "details": "Understand financial statements and make informed business decisions.",
+        "details": "Amazon Web Services, leading cloud provider for scalable, on-demand computing resources.",
         "price": 23000,
         "credit": 3
       },
@@ -60,7 +60,7 @@
         "id": 8,
         "image_url": "https://i.ibb.co/FsGTQGQ/8.png",
         "course_name": "Database (MySQL",
-        "details": "Learn the fundamentals of photography and improve your photography skills.",
+        "details": "Popular open-source relational database management system for data storage.",
         "price": 35000,
         "credit": 2
       },
@@ -68,7 +68,7 @@
         "id": 9,
         "image_url": "https://i.ibb.co/mcq1Rb7/Rectangle-2-6.png",
         "course_name": "Problem-Solving Part",
-        "details": "Unleash your creativity through writing exercises and storytelling techniques.",
+        "details": "Systematic approach to analyze and resolve complex challenges efficiently.",
         "price":23000,
         "credit": 2
       }
